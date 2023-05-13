@@ -5,11 +5,11 @@ import fetch from "node-fetch";
 /**
  * Get products from the API call with the minPrice defined.
  * Return array of 1000 products.
- * API: https://api.ecommerce.com/products?minPrice=0
+ * API: https://api.ecommerce.com/products/?minPrice=0
  **/
 export const getProducts = async (price) => {
   const res = await fetch(
-    `https://api.ecommerce.com/products?minPrice=${price}`
+    `https://api.ecommerce.com/products/?minPrice=${price}`
   );
 
   if (res.ok) {
