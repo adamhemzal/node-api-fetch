@@ -1,0 +1,22 @@
+{
+  "name": "apify-challenge",
+  "version": "0.0.1",
+  "type": "module",
+  "engines": {
+    "node": "^18"
+  },
+  "description": "Apify Web Automation Dev Challenge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon app.js",
+    "test": "echo \"Error: oops, there are no tests yet\" && exit 1"
+  },
+  "author": "Adam Hemzal",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
