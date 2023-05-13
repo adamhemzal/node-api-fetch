@@ -2,7 +2,7 @@ import { getProducts, wait } from "./functions.js";
 
 const MIN_PRICE = 0;
 const MAX_PRICE = 100000;
-const COUNTER = 2;
+const COUNTER = 1;
 
 // all products gathered from API
 const products = [];
